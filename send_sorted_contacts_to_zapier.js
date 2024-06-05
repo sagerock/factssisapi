@@ -80,7 +80,7 @@ pm.test("Send sorted contacts individually to Zapier", function () {
 
         // Send the payload to Zapier
         pm.sendRequest({
-            url: "https://hooks.zapier.com/hooks/catch/17327511/2ylkghn6/",
+            url: "https://hooks.zapier.com/hooks/xxxxxxxxx/yyyyyyy/",
             method: 'POST',
             header: {
                 'Content-Type': 'application/json'
